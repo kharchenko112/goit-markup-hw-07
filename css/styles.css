@@ -204,6 +204,10 @@ body {
   justify-content: center;
   gap: 24px;
 }
+.features-list-icon{
+   display: flex;
+   justify-content: center;
+   gap: 24px;}
 
 .feature-item {
   width: 264px;

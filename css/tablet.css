@@ -148,13 +148,57 @@
   .team-list {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
     width: 100%;
     gap: 64px 16px;
+    text-align: center;
 
   }
   .team-item {
     width: 264px; 
   }
-  
+ 
+.customers-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  gap: 72px 24px;
+ 
 }
+
+.footer-tablet{
+display: flex;
+}
+
+.footer-logo {
+  display: block;
+  text-align: start;
+  padding-left: 108px;
+  margin-right: 24px;
+}
+.footer-text{
+  text-align: start;
+}
+.footer-social-text{
+  text-align: start;
+}
+
+.footer-subscribe {
+  display: block;
+  width: 453px;
+  padding-left: 108px;
+}
+.subscribe-text{
+  text-align: start;
+}
+.subscribe-form{
+  display: flex;
+}
+.subscribe-button{
+  margin-left: 24px;
+}
+
+}
+
+
+
