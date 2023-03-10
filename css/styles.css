@@ -395,7 +395,7 @@ body {
 } */
 
 /* ---------------------BTN-PORTFOLIO------------------------ */
-/* 
+
 .button-list {
 }
 .btn-item,
@@ -433,11 +433,14 @@ body {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-} */
+} 
 
-/* ---------------------------Portfolio-----------------------
+/* ---------------------------Portfolio----------------------- */
 .portfolio {
   background: var(--second-color-text);
+}
+.portfolio-wrap{
+  max-width: 1158px;
 }
 .portfolio-section {
   padding-top: 96px;
@@ -537,7 +540,7 @@ body {
   color: var(--main-color-title);
   margin-bottom: 8px;
 }
-.portfolio-category {
+ .portfolio-category {
   font-family: inherit;
   color: var(--main-color-text);
   font-size: 16px;
@@ -546,7 +549,7 @@ body {
 .portfolio-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-} */
+} 
 
 /* -------------------------FOOTER---------------- */
 /* 
