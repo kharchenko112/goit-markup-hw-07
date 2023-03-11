@@ -50,7 +50,7 @@
     color: var(--accent-color);
   }
   .nav-link::after {
-    display: contents;
+    
     position: absolute;
     display: block;
     content: "";
@@ -147,14 +147,16 @@
   }
   .team-list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
     gap: 64px 16px;
-    text-align: center;
+    
 
   }
   .team-item {
     width: 264px; 
+    margin-bottom: 0;
   }
  
 .customers-list {
